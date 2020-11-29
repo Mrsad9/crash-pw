@@ -171,8 +171,6 @@ def print_cow():
     print("")
     print("")
     print("")
-    print("")
-    print("")
    
 def version():
     """Display version"""
