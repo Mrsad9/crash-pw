@@ -153,14 +153,35 @@ def print_to_file(filename, unique_list_finished):
         + filename
         + "\033[1;m and shoot! Good luck!"
     )
+#clear
 
+def print_cow():
+    print("")
+    print("           █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█")
+    print("           █░░╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗░░█")
+    print("           █░░║║║╠─║─║─║║║║║╠─░░█")
+    print("           █░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░█")
+    print("           █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█")
+    print("                          Made By 🄼🅁.🅂🄰🄳_🅂🄼🄸🄻🄴_-")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+   
 def version():
     """Display version"""
-    print("\033[07m"             "▀      ▀     ▀▀▀▀"               )
-    print("\033[07m"             "▀▀  ▀▀      ▀    ▀"               )
-    print("\033[07m"             "▀  ▀  ▀      ▀▀▀▀"               )
-    print("\033[07m"             "▀     ▀       ▀  ▀"               )
-    print("\033[07m"             "▀     ▀       ▀   ▀"               )
+
+    print("\r\n	\033[1;31m[ crash.py ]  " + __version__ + "\033[1;m\r\n")
+    print("	* Hacked up by j0rgan - j0rgan@remote-exploit.org")
+    print("	* http://www.remote-exploit.org\r\n")
+    print("	Take a look ./README.md file for more info about the program\r\n")
+
 
 def improve_dictionary(file_to_open):
     """Implementation of the -w option. Improve a dictionary by
