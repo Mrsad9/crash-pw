@@ -154,29 +154,12 @@ def print_to_file(filename, unique_list_finished):
         + "\033[1;m and shoot! Good luck!"
     )
 
-
-def print_cow():
-    print("#Made Mr.Sad_Smile_-")
-    print("▇▇◤▔▔▔▔▔▔▔◥▇▇")
-    print("▇▇▏◥▇◣┊◢▇◤▕▇▇")
-    print("▇▇▏▃▆▅▎▅▆▃▕▇▇")
-    print("▇▇▏╱▔▕▎▔▔╲▕▇▇")
-    print("▇▇◣◣▃▅▎▅▃◢◢▇▇")
-    print("▇▇▇◣◥▅▅▅◤◢▇▇▇")
-    print("▇▇▇▇◣╲▇╱◢▇▇▇▇")
-    print(*'Made By:' "Mr.sad_Smile_-")
-    print(*'Crash Pw:' "Web,Email,Wifi")
-    print(*'Semoga Membantu')
-
-
-def version():
-    """Display version"""
-
-    print("\r\n	\033[1;31m[ crash.py ]  " + __version__ + "\033[1;m\r\n")
-    print("	* Hacked up by Mr.Sad_Smile_-")
-    print("	* http://@sad.smile99999@gmail.com")
-    print("	Take a look ./README.md file for more info about the program\r\n")
-
+      #clear
+print("\033[07m"            "▀           ▀     ▀▀▀▀"            )
+print("\033[07m"            "▀ ▀   ▀ ▀     ▀         ▀"            )
+print("\033[07m"            "▀      ▀    ▀     ▀▀▀▀"            )
+print("\033[07m"            "▀           ▀       ▀    ▀"            )
+print("\033[07m"            "▀           ▀       ▀      ▀"            )
 
 def improve_dictionary(file_to_open):
     """Implementation of the -w option. Improve a dictionary by
