@@ -154,12 +154,13 @@ def print_to_file(filename, unique_list_finished):
         + "\033[1;m and shoot! Good luck!"
     )
 
-      #clear
-print("\033[07m"               "▀      ▀  ▀▀▀▀"               )
-print("\033[07m"               "▀▀  ▀▀   ▀    ▀"               )
-print("\033[07m"               "▀  ▀  ▀   ▀▀▀▀"               )
-print("\033[07m"               "▀     ▀    ▀  ▀"               )
-print("\033[07m"               "▀     ▀    ▀   ▀"               )
+def version():
+    """Display version"""
+    print("\r\n                  "▀      ▀     ▀▀▀▀"               )
+    print("\033[07m"             "▀▀  ▀▀      ▀    ▀"               )
+    print("\033[07m"             "▀  ▀  ▀      ▀▀▀▀"               )
+    print("\033[07m"             "▀     ▀       ▀  ▀"               )
+    print("\r\n                  "▀     ▀       ▀   ▀"               )
 
 def improve_dictionary(file_to_open):
     """Implementation of the -w option. Improve a dictionary by
