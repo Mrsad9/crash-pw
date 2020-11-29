@@ -156,11 +156,11 @@ def print_to_file(filename, unique_list_finished):
 
 def version():
     """Display version"""
-    print("\r\n                  "▀      ▀     ▀▀▀▀"               )
+    print("\033[07m"             "▀      ▀     ▀▀▀▀"               )
     print("\033[07m"             "▀▀  ▀▀      ▀    ▀"               )
     print("\033[07m"             "▀  ▀  ▀      ▀▀▀▀"               )
     print("\033[07m"             "▀     ▀       ▀  ▀"               )
-    print("\r\n                  "▀     ▀       ▀   ▀"               )
+    print("\033[07m"             "▀     ▀       ▀   ▀"               )
 
 def improve_dictionary(file_to_open):
     """Implementation of the -w option. Improve a dictionary by
