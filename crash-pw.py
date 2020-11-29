@@ -170,7 +170,7 @@ def print_cow():
     print("")
     print("")
     print("")
-    print("")
+    print("Untuk Melanjutkan Ketik python crash-pw.py -i")
    
 def version():
     """Display version"""
