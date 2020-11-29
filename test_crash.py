@@ -152,5 +152,31 @@ class TestCupp(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-copy("pkg install hydra")
+
+
+
+
+
+
+
+
+
+
+#pkg install hydra -y
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#hydra
     
