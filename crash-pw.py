@@ -153,7 +153,7 @@ def print_to_file(filename, unique_list_finished):
         + filename
         + "\033[1;m and shoot! Good luck!"
     )
-#clear
+
 
 def print_cow():
     print("")
@@ -170,12 +170,37 @@ def print_cow():
     print("")
     print("")
     print("")
-    print("\r\n                      █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█          ")                                
-    print("---------------------------█ Ketik:{python crash-pw.py -i} █          ") 
-    print("                          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█       \r\n")
-    print("")
-    print("")
-    print("")
+
+def version():
+    """Display version"""
+
+    print("\r\n	\033[1;31m[ crash.py ]  " + __version__ + "\033[1;m\r\n")
+    print("	* Hacked up by j0rgan - j0rgan@remote-exploit.org")
+    print("	* http://www.remote-exploit.org\r\n")
+    print("	Take a look ./README.md file for more info about the program\r\n")
+
+
+def improve_dictionary(file_to_open):
+    """Implementation of the -w option. Improve a dictionary by
+    interactively questioning the user."""
+
+    kombinacija = {}
+    komb_unique = {}
+
+    if not os.path.isfile(file_to_open):
+        exit("Error: file " + file_to_open + " does not exist.")
+
+    chars = CONFIG["global"]["chars"]
+    years = CONFIG["global"]["years"]
+    numfrom = CONFIG["global"]["numfrom"]
+    numto = CONFIG["global"]["numto"]
+
+    fajl = open(file_to_open, "r")
+    listic = fajl.readlines()
+    listica = []
+    for x in listic:
+        listica += x.split()
+
     print("\r\n      *************************************************")
     print("      *                    \033[1;31mWARNING!!!\033[1;m                 *")
     print("      *         Using large wordlists in some         *")
