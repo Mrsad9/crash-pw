@@ -170,20 +170,12 @@ def print_cow():
     print("")
     print("")
     print("")
-    print('_____________________________________________')
-    print("Untuk Melanjutkan Ketik:{python crash-pw.py -i}")
-
-    chars = CONFIG["global"]["chars"]
-    years = CONFIG["global"]["years"]
-    numfrom = CONFIG["global"]["numfrom"]
-    numto = CONFIG["global"]["numto"]
-
-    fajl = open(file_to_open, "r")
-    listic = fajl.readlines()
-    listica = []
-    for x in listic:
-        listica += x.split()
-
+    print("\r\n                      █▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█          ")                                
+    print("---------------------------█ Ketik:{python crash-pw.py -i█          ") 
+    print("                          █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█       \r\n")
+    print("")
+    print("")
+    print("")
     print("\r\n      *************************************************")
     print("      *                    \033[1;31mWARNING!!!\033[1;m                 *")
     print("      *         Using large wordlists in some         *")
